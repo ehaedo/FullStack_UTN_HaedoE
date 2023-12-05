@@ -1,0 +1,58 @@
+ body {
+   background-image: url('/src/assets/Fondo.jpg');
+   background-color: aqua;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center center;
+   position: relative;
+   padding-bottom: 3rem;
+   min-height: 100vh;
+   overflow-x: hidden;
+ }
+
+
+ .contenedor-footer {
+   justify-content: space-around;
+   text-align: center;
+   padding: 1rem 0px;
+   background-color: #735C60;
+   color: white;
+   border-radius: 1rem;
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+
+ }
+
+
+ .contenedor-footer p {
+   margin: 0;
+   line-height: 1.4;
+ }
+
+ .contenedor-footer p a {
+   color: blue;
+   text-decoration: underline;
+   display: inline;
+ }
+
+ @media (max-width: 360px) {
+
+   .characters-list {
+     list-style: none;
+     display: grid;
+     grid-template-columns: repeat(1, 1fr);
+     gap: 20px;
+     padding-top: 2rem;
+
+   }
+
+   .contenedor {
+     background-image: url('/src/assets/Fondo.jpg');
+     background-size: auto;
+     background-repeat: repeat;
+     width: 1200;
+     object-fit: cover;
+   }
+ }

@@ -1,0 +1,88 @@
+@font-face {
+  font-family: 'Harry Potter';
+  src: url('../../assets/fuente/HARRP___.TTF') format('truetype');
+
+}
+
+h3 {
+  font-family: 'Harry Potter', sans-serif;
+  font-size: xx-large;
+  margin: 20px 5px;
+  letter-spacing: 9px;
+  text-align: center;
+}
+
+.characters-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding-top: 2rem;
+
+}
+
+.character-item {
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+
+.character-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+
+
+.character-text span {
+  display: flex;
+  margin-bottom: 5px;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: -webkit-left;
+}
+
+.character-text {
+  margin-top: 10px;
+}
+
+.character-image {
+  width: 100%;
+}
+
+.character-image img {
+  width: 14rem;
+  height: 17rem;
+  object-fit: contain;
+  border-radius: 15rem;
+}
+
+.pagination {
+  position: relative;
+  display: flow;
+}
+
+
+@media (max-width: 360px) {
+  .characters-list {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .characters-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    padding-top: 2rem;
+
+  }
+
+  .characteres-container {
+    max-width: min-content;
+    margin: 0 auto;
+    padding: 20px;
+  }
+}

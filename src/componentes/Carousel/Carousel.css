@@ -1,0 +1,26 @@
+.carousel-container {
+  width: 50%;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+
+
+.carousel-container img {
+  max-width: 100%;
+  max-height: 300px;
+  height: auto;
+  object-fit: cover;
+  display: inline-block;
+}
+
+.slick-list {
+  width: 5;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  width: auto;
+  text-align: -webkit-center;
+}
