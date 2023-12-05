@@ -2,8 +2,7 @@
   "name": "proyecto-reat-vite",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
-  "homepage": "https://ehaedo.github.io/FullStack_UTN_HE/",
+  "type": "module", 
   "scripts": {
     "dev": "vite",
     "build": "vite build",
