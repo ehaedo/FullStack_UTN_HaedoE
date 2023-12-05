@@ -37,7 +37,8 @@
    display: inline;
  }
 
- @media (max-width: 360px) {
+ @media (max-width: 360px),
+ (max-width: 780px) {
 
    .characters-list {
      list-style: none;
