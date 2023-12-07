@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './personajes.css';
-import errorIcon from '../../../public/imgError.jpg';
+import errorIcon from '../../../public/ImgError.jpg';
 
 function HarryPotterCharacters() {
   const [characters, setCharacters] = useState([]);

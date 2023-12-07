@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import './casas.css';
-import errorIcon from '../../../public/imgError.jpg';
+import errorIcon from '../../../public/ImgError.jpg';
 function HarryPotterCharacters() {
   const [characters, setCharacters] = useState([]);
   const [house, setHouse] = useState('');
